@@ -22,7 +22,6 @@ class WriterTensorboardX():
         ]
         self.tag_mode_exceptions = ['add_histogram', 'add_embedding']
 
-
     def set_step(self, step, mode='train'):
         self.mode = mode
         self.step = step
